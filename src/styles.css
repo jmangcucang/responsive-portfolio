@@ -482,11 +482,11 @@ textarea{
     background-color: #fff;
 }
 
-@media screen and (max-width: 880px){
+@media screen and (max-width: 1000px){
 	.contact-box{
 		grid-template-columns: 1fr;
 	}
 	.left{
-		height: 200px;
+		height: 400px;
 	}
 }
