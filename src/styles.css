@@ -143,16 +143,66 @@ p {
     margin: 10px;
 }
 
+.service-card {
+    width: 300px;
+    /*height: 500px;*/
+    height: 300px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+}
+
 .project-container {
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
 }
 
+.service-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tools-container { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-container {
+    display: inline-block;
+    margin: 0 40px 40px 40px;
+}
+
+.tools-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FFFF;
+    box-shadow: 0 30px 40px 0 rgb(212 217 232 / 20%);
+    border-radius: 16px;
+    margin: 10px;
+}
+
 @media only screen and (max-width: 1000px) {
     .project-container {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .project-card {
+        flex: 50%;
+    }
+    
+    .service-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .service-card {
+        flex: auto;
     }
 }
 
@@ -165,6 +215,13 @@ p {
 .service-image {
     margin-top: 10px;
     width: 200px;
+}
+
+.tools-image {
+    margin: 10px;
+    width: 200px;
+    height: 75px;
+    object-fit: cover;
 }
 
 hr {
