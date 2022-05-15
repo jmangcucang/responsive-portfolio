@@ -1,6 +1,6 @@
 const hamburgerButton = document.getElementById('hamburger')
 const navList = document.getElementById('nav-list')
-const mediaScreen = window.matchMedia('(max-width: 1400px)')
+const mediaScreen = window.matchMedia('(max-width: 1200px)')
 const btnModal = document.getElementById("openModal")
 const modal = document.getElementById("contactModal")
 const span = document.getElementsByClassName("close")[0];
