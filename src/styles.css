@@ -76,6 +76,11 @@ p {
     font-weight: 300;
 }
 
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .subtext {
     font-size: 15px;
     font-weight: 300;
@@ -119,7 +124,7 @@ p {
 }
 
 .logo {
-    height: 350px;
+    height: 360px;
     margin-top: -130px;
     object-fit: cover;
 }
@@ -148,7 +153,9 @@ p {
     text-align: center;
     padding: 80px;
 }
-
+.dashed {
+    stroke-dasharray: 8, 8.5;
+  }
 .headshot {
     width: 300px;
     border-radius: 150px;
@@ -174,7 +181,7 @@ p {
     /*height: 500px;*/
     height: 300px;
     box-shadow: 5px 5px 20px rgb(197, 195, 195);
-    margin: 10px;
+    margin: 20px;
 }
 
 .project-card:hover{
@@ -184,13 +191,13 @@ p {
 .project-container {
     margin-top: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .service-container {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .tools-container { 
